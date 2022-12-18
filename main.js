@@ -1,4 +1,4 @@
-let launchDate = new Date("Oct 20, 2021, 00:00:00").getTime();
+let launchDate = new Date("Jan 01, 2023, 00:00:00").getTime();
 
 const second = 1000;
 const minute = second * 60;

@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background: #060000;
+  background: #323E42;
 }
 
 .my-container {
@@ -32,14 +32,14 @@ body {
 
 .my-container h1 {
   font-size: 80px;
-  color: #ede580;
+  color: #B24BF3;
   text-transform: uppercase;
   margin: 0;
 }
 
 .my-container p {
   font-size: 24px;
-  color: #fff;
+  color: #D7A1F9;
   line-height: 170%;
   margin-top: 0;
   margin-bottom: 60px;
@@ -61,7 +61,7 @@ body {
 }
 
 .my-container .counter .unit-container {
-  background: #fff;
+  background: #EFDCF9;
   padding: 8px 32px;
   margin-right: 30px;
   border-radius: 24px;
@@ -70,7 +70,7 @@ body {
 .my-container .counter .unit-container .value {
   font-size: 60px;
   font-weight: 900;
-  color: #e71828;
+  color: #7954A1;
   font-variant-numeric: tabular-nums;
 }
 
