@@ -2,9 +2,9 @@
     header .navbar-brand {
       padding-left: 1rem;
     }
-    .section-1 .row .col-md-5 {
-      flex: 100%;
-      max-width: 100%;
+    .section-1 .row .col-md-7 .pray .map {
+      flex: 122%;
+      max-width: 122%;
     }
     .section-1 .row .col-md-5 .panel {
       position: initial;
