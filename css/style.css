@@ -14,7 +14,7 @@ section {
     --Patua: "Patua One", cursive;
     --Lobster: "lobster", cursive;
     --light-black: #2e2c2caf;
-    --bggradient: linear-gradient(to bottom, #24b2dd, #ff2fff);
+    --bggradient: linear-gradient(to bottom, #7a1160, #7f76b7);
     --light-gray: rgba(255, 255, 255, 0.877);
   }
 
@@ -50,7 +50,7 @@ section {
   }
   
   header .row .col-md-5 {
-    padding: 4.2vmin 1vmin;
+    padding: 15.2vmin 1vmin;
   }
   
   header .row .col-md-5 img {
@@ -64,6 +64,7 @@ section {
   }
   
   header .container .col-md-7 {
+    color: #ddd7ff;
     font-family: "Rubik", sans-serif;
   }
   
@@ -85,12 +86,12 @@ section {
   /********** section 1 **************/
 
 .section-1 {
-    padding: 20vmin 0vmin;
+    padding: 5vmin 5vmin 5vmin 5vmin;
   }
   
   .section-1 .row .col-md-5 .pray img {
     opacity: 0.8;
-    width: 80%;
+    width: 100%;
     border-radius: 0.2em;
   }
   
@@ -129,7 +130,7 @@ section {
     height: 55vmin;
     background: url("/assets/hall.jpg");
     background-position: -24rem -19rem;
-    background-size: 150%;
+    background-size: 100%;
     position: relative;
   }
   
@@ -161,87 +162,28 @@ section {
     color: #e5e5e5;
   }
   
-  .numbers .rect {
-    position: relative;
-    z-index: 1;
-    background: rgb(255, 244, 253);
-    width: 70rem;
-    height: 80rem;
-    padding-top: 3.5vmin;
-    margin: 1rem;
-    border-radius: 0.5em;
-    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
-  }
-  
-  .numbers {
-    margin-top: -15vmin;
-  }
-  
-  .numbers .rect h2 {
-    margin: 1rem;
-    font-size: 3rem;
-    color: rgb(134, 65, 114);
-  }
-
-  .numbers .rect h4 {
-    padding-left: 4.5rem;
-    font-size: 1.4rem;
-    color: rgb(75, 62, 71);
-  }
-
-  .numbers .rect h7 {
-    padding-left: 7rem;
-    font-size: 1rem;
-    color: rgb(102, 98, 101);
-  }
-  
-  .numbers .rect > p {
-    font-family: var(--Patua);
-  }
-  
-  .purchase > h1 {
+  .our-services > h1 {
     padding-top: 15vmin;
+    padding-bottom: 3vmin;
     padding-bottom: 0.1em;
     font-family: var(--Lobster);
   }
+
+  .our-services > h4 {
+    padding-left: 50vmin;
+    padding-bottom: 0.1em;
+  }
+  .our-services > h7 {
+    padding-left: 60vmin;
+    padding-bottom: 0.1em;
+  }
   
-  .purchase > p {
+  .our-services > p {
     color: var(--light-black);
     font-size: 3vmin;
     padding-bottom: 10vmin;
   }
   
-  .purchase .cards .card {
-    width: 22rem;
-    margin: 3vmin 3vmin;
-  }
-  
-  .cards div {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .cards .title {
-    background: rgba(208, 241, 241, 0.199);
-    padding: 1.4em 2.5em;
-    font-size: 2vmin;
-  }
-  
-  .card .card-text {
-    padding: 2.5rem 3rem;
-    color: var(--light-black);
-  }
-  
-  .card-body .pricing {
-    background: rgba(208, 241, 241, 0.199);
-    border-top-right-radius: 170px;
-    border-top-left-radius: 170px;
-  }
-  
-  .card-body .pricing > h1 {
-    font-size: 10vmin;
-    padding: 1em 0.5em;
-  }
 
 /* Section Team */
 
