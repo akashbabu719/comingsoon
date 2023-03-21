@@ -136,6 +136,10 @@ input.check-toggle-round-flat:checked + label:after {
     --light-gray: rgba(255, 255, 255, 0.877);
   }
 
+  header a div {
+    display: inline;
+  }
+
   header a {
     font-family: var(--Sniglet-font);
     font-size: 0.9em;
