@@ -37,6 +37,14 @@ input.check-toggle-round-flat:checked ~ .on {
   color: #fff;
 }
 
+.switch > span.on > img {
+  border-radius: 60px;
+}
+
+.switch > span.off > img {
+  border-radius: 60px;
+}
+
 .switch > span.on {
   left: 0;
   padding-left: 2px;
@@ -68,7 +76,7 @@ input.check-toggle-round-flat:checked ~ .on {
 input.check-toggle-round-flat + label {
   padding: 2px;
   width: 100px;
-  height: 35px;
+  height: 41px;
   background-color: #7f76b7;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
@@ -100,7 +108,7 @@ input.check-toggle-round-flat + label:after {
   left: 4px;
   bottom: 4px;
   width: 48px;
-  background-color: #fff;
+  background-color: #c2a5e1;
   -webkit-border-radius: 52px;
   -moz-border-radius: 52px;
   -ms-border-radius: 52px;
