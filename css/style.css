@@ -170,6 +170,11 @@ input.check-toggle-round-flat:checked + label:after {
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
   }
+
+  header .row .col-md-10 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+  }
   
   header .row .col-md-5 {
     padding: 15.2vmin 1vmin;
