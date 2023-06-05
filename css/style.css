@@ -132,7 +132,7 @@ input.check-toggle-round-flat:checked + label:after {
     --Patua: "Patua One", cursive;
     --Lobster: "lobster", cursive;
     --light-black: #2e2c2caf;
-    --bggradient: linear-gradient(to bottom, #7a1160, #7f76b7);
+    --bggradient: linear-gradient(to bottom, #51767e, #c0dee5);
     --light-gray: rgba(255, 255, 255, 0.877);
   }
 
