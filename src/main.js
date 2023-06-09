@@ -21,11 +21,11 @@ $(window).scroll(function () {
 const data = {
   "en": {
     "title": "Welcome!",
-    "address": "Facharzt Innere Medizin, Zusatzweiterbildung Intensivmedizin <br> Saarstr.4, 38440 Wolfsburg"
+    "address": "Facharzt Innere Medizin, Facharzt Kardiologie,<br> Zusatzweiterbildung Intensivmedizin <br> Saarstr.4, 38440 Wolfsburg"
   },
   "de": {
     "title": "Willkommen!",
-    "address": "Saarstraße 4, 38440 Wolfsburg"
+    "address": "Facharzt Innere Medizin, Facharzt Kardiologie,<br> Zusatzweiterbildung Intensivmedizin <br> Saarstr.4, 38440 Wolfsburg"
   }
 };
 
