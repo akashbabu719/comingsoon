@@ -817,7 +817,7 @@ figure {
 		span {
 			text-transform: uppercase;
 			letter-spacing: 3px;
-			font-size: 13px;
+			font-size: 11px;
 			color: rgba($brand-black, .4);
 		}
 	}
@@ -841,6 +841,9 @@ figure {
 					}
 				}
 			}
+		}
+		.sub {
+			font-size: 11px;
 		}
 
 	}
