@@ -368,6 +368,7 @@ const data = {
 	  "thursday": "Thursday",
 	  "friday": "Friday",
 	  "saturday": "Saturday",
+	  "trainerDesc5": "Administration and Management",
 	  "timingDesc1": "Outside Consultation hours on weekdays by appointment",
 	  "timingDesc2": "**Without an appointment, for short, acute concerns with a waiting time",
 	  "contactH3": "Contact Information",
@@ -383,7 +384,7 @@ const data = {
 	  "galleryDesc": "Explore our hospital image gallery, showcasing our compassionate care and modern facilities. Witness the expertise of our medical team as they prioritize your well-being and deliver top-notch services to our valued patients.",
 	  "imprint": "Imprint/Data protection",
 	  "practiceTeamHeader": "Meet Our Practice Team",
-	  "practiceTeamBody": "We take pride in our exceptional team of healthcare professionals. Our practice team is composed of highly skilled and compassionate doctors, nurses, specialists, and support staff who are dedicated to providing the best possible care to our patients. Each member of our team brings a wealth of experience and expertise, ensuring that you receive personalized and top-notch medical attention. We are committed to your well-being and look forward to serving you with the utmost care and professionalism.",
+	  "practiceTeamBody": "We take pride in our exceptional team of healthcare professionals. Our practice team is composed of highly skilled and compassionate doctors, nurses/MFA's, and support staff who are dedicated to providing the best possible care to our patients. Each member of our team brings a wealth of experience and expertise, ensuring that you receive personalized and top-notch medical attention. We are committed to your well-being and look forward to serving you with the utmost care and professionalism.",
 	  "time21": "08:00 AM - 12:00 PM",
 	  "time22": "03:00 PM - 05:00 PM",
 	  "time23": "08:00 AM - 09:00 AM",
@@ -454,6 +455,7 @@ const data = {
 	  "thursday": "Donnerstag",
 	  "friday": "Freitag",
 	  "saturday": "Samstag",
+	  "trainerDesc5": "Verwaltung",
 	  "timingDesc1": "Außerhalb der Sprechzeiten werktags nach Vereinbarung",
 	  "timingDesc2": "**Ohne Termin, für kurzfristige, akute Anliegen mit Wartezeit",
 	  "contactH3": "Kontaktinformationen",
@@ -469,7 +471,7 @@ const data = {
 	  "galleryDesc": "Entdecken Sie unsere Krankenhaus-Bildergalerie, die mitfühlende Betreuung und moderne Einrichtungen zeigt. Erleben Sie die Fachkompetenz unseres medizinischen Teams, während sie Ihr Wohlbefinden in den Mittelpunkt stellen und erstklassige Dienstleistungen für unsere geschätzten Patienten erbringen.",
 	  "imprint": "Impressum/Datenschutz",
 	  "practiceTeamHeader": "Unser Praxisteam kennenlernen",
-	  "practiceTeamBody": "Unser Praxisteam besteht aus hochqualifizierten und mitfühlenden Ärzten, Krankenschwestern, Spezialisten und Unterstützungspersonal, die sich dafür einsetzen, die bestmögliche Versorgung für unsere Patienten zu gewährleisten. Jedes Mitglied unseres Teams bringt eine Fülle von Erfahrung und Fachwissen mit, um sicherzustellen, dass Sie eine individuelle und erstklassige medizinische Betreuung erhalten. Wir sind Ihrem Wohlbefinden verpflichtet und freuen uns darauf, Sie mit größter Sorgfalt und Professionalität zu behandeln.",
+	  "practiceTeamBody": "Unser Praxisteam besteht aus hochqualifizierten und mitfühlenden Ärzten, Krankenschwestern/MFA's und Unterstützungspersonal, die sich dafür einsetzen, die bestmögliche Versorgung für unsere Patienten zu gewährleisten. Jedes Mitglied unseres Teams bringt eine Fülle von Erfahrung und Fachwissen mit, um sicherzustellen, dass Sie eine individuelle und erstklassige medizinische Betreuung erhalten. Wir sind Ihrem Wohlbefinden verpflichtet und freuen uns darauf, Sie mit größter Sorgfalt und Professionalität zu behandeln.",
 	  "time21": "08:00 Uhr - 12:00 Uhr",
 	  "time22": "15:00 Uhr - 17:00 Uhr",
 	  "time23": "08:00 Uhr - 09:00 Uhr",
@@ -632,6 +634,7 @@ const data = {
 	if (document.getElementById("thursday") != null) document.getElementById("thursday").innerHTML = data[language].thursday;
 	if (document.getElementById("friday") != null) document.getElementById("friday").innerHTML = data[language].friday;
 	if (document.getElementById("saturday") != null) document.getElementById("saturday").innerHTML = data[language].saturday;
+	if (document.getElementById("trainerDesc5") != null) document.getElementById("trainerDesc5").innerHTML = data[language].trainerDesc5;
   }
   
   document.getElementById("language-toggle").addEventListener("change", function() {
