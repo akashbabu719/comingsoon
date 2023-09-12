@@ -642,6 +642,7 @@ figure {
 #fh5co-footer {
   padding: 7em 0;
   clear: both;
+  line-height: 1;
 }
 
 @media screen and (max-width: 768px) {
@@ -657,6 +658,7 @@ figure {
   #fh5co-contact,
   #fh5co-footer {
     padding: 3em 0;
+    line-height: 1;
   }
 }
 
@@ -790,7 +792,7 @@ figure {
 }
 
 .trainer .desc .sub {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 #fh5co-schedule .fh5co-heading h2 {

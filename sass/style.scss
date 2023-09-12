@@ -708,9 +708,11 @@ figure {
 #fh5co-footer {
 	padding: 7em 0;
 	clear: both;
+	line-height: 1;
 
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
+		line-height: 1;
 	}
 }
 
@@ -842,6 +844,7 @@ figure {
 				}
 			}
 		}
+
 		.sub {
 			font-size: 11px;
 		}
